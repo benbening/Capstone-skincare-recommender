@@ -190,7 +190,7 @@ budget = st.sidebar.slider(
     50000,
     500000,
     200000,
-    step=50000
+    step=50000,
     format="Rp %d"
 )
 
