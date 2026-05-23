@@ -191,6 +191,7 @@ budget = st.sidebar.slider(
     500000,
     200000,
     step=50000
+    format="Rp %d"
 )
 
 routine = st.sidebar.selectbox(
