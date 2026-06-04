@@ -44,7 +44,7 @@ function App() {
       const cleanAllergens = selectedAllergens.map(a => a.split(' ')[0]).join(', ')
       const gabunganKeluhan = `Kulit ${skinType.split(' ')[0]}. Masalah: ${cleanProblems}`
       
-      const response = await fetch('https://beningpastika-backend.hf.space', { 
+      const response = await fetch('https://beningpastika-backend.hf.space/recommend', { 
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
