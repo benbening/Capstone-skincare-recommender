@@ -1,4 +1,4 @@
-<h1 align="center">🌸 SkinMatch AI</h1>
+<h1 align="center">🌸 SkinMatch </h1>
 
 <p align="center">
 Sistem Rekomendasi Skincare Berbasis NLP & Semantic Similarity
